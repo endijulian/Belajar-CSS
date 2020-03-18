@@ -1,0 +1,22 @@
+
+
+/*Belajar Mengenal Text Styling*/
+
+h1{
+	font-size: 150px;
+	color: khaki;
+	text-decoration: underline; /*underline, overline,none, line-throught*/
+	text-transform: capitalize;	/*none, lowercase, upercase, capitalize*/
+}
+
+p{
+	text-align: justify;   /* LEFT,RIGHT,CENTER,JUSTIFY*/
+	text-indent: 100px;	
+	text-transform: capitalize;
+	/*letter-spacing: 5px;*/
+	word-spacing: 5px;
+}
+
+a{
+	text-decoration: none;
+}

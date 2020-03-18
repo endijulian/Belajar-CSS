@@ -1,0 +1,5 @@
+body{
+	background-color: #999999;
+	background-image: url(gambar/gambar2.png);
+	background-repeat: repeat-x; /*repeat-x, repeat-y, no-repeat*/
+}

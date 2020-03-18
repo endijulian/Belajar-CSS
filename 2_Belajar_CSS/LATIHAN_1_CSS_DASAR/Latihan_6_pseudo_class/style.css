@@ -1,0 +1,49 @@
+
+	/*pseudo class yang berhubungan dengan link
+	1. :link
+	2. :hover
+	3. :active
+	4. :visited*/
+
+.hello:link{
+	color: red;
+}
+
+.hello:hover{
+	color: green;
+	font-family: arial;
+	font-size: 30px;
+}
+
+.hello:active{
+	font-style: italic;
+}
+
+.hello:visited{
+	color: red;
+}
+
+
+	/*Pseudo class yang berhubungan dengan posisi elemen
+	1. :first-child
+	2. :last-child
+	3. :nth-child(n)(even)(odd) */
+
+	li:nth-child(odd) a{
+		color: green;
+	}
+
+	li:nth-child(even) a:hover{
+		color: red;
+	}
+
+
+
+	/*pseudo class yang berhubungan dengan elemen
+	1. :first-of-type
+	2. :last-of-type*/
+
+	p:first-of-type { 
+		color: red;
+	}
+
